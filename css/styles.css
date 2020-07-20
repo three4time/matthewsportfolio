@@ -1,0 +1,292 @@
+
+
+/*
+color scheme:
+background: #f0a500;
+header rule: #cf7500; 
+header color: #127681;
+*/
+
+/*Anchor Tags*/
+a {
+    color: white;
+    font-family: 'Lobster', cursive;
+    font-size: 50px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+}
+
+a:active {
+    color: #cf7500;
+}
+
+/*Fonts*/
+.sansserif {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 20px;
+}
+
+.heading {
+    font-family: 'Permanent Marker', cursive;
+    color: #127681;
+    font-size: 90px;
+}
+
+.heading2 {
+    font-family: 'Permanent Marker', cursive;
+    color: #127681;
+    font-size: 2rem;
+}
+
+.fancytext {
+    font-family: 'Pacifico', cursive;
+    color: white;
+    font-size: 30px;
+}
+
+/*Lobster Font, Black, 2rem*/
+.blk_lglobster {
+    color: black;
+    font-size: 2rem;
+    font-family: 'Lobster', cursive;
+    font-weight: normal;
+    width: 70%;
+    margin: 50px auto 50px;
+}
+
+/*Pacifico, White, 1.5rem*/
+.lgfancy {
+    color: white;
+    font-size: 2.5rem;
+    font-family: 'Pacifico', cursive;
+}
+
+.lgfancynav {
+    color: white;
+    font-size: 2.2rem;
+    font-family: 'Pacifico', cursive;
+}
+
+.lgfancylink {
+    color: #0077B5;
+    font-size: 2.5rem;
+    font-family: 'Pacifico', cursive;
+}
+
+.lgfancycenter {
+    color: white;
+    font-size: 2.5rem;
+    font-family: 'Pacifico', cursive;
+}
+
+.blackfont {
+    color: black;
+    font-size: 20px;
+    font-family: 'Lobster', cursive;
+}
+
+.whitefont {
+    color: white;
+    font-size: 20px;
+    text-align: left;
+    font-family: 'Lobster', cursive;
+}
+
+
+/*Head*/
+title {text-align: center;}
+
+head {
+    text-align: center;
+}
+
+h1 
+    {
+    text-align: center;
+    color: #127681;
+    font-size: 5.626rem;
+    margin: 50px auto 0 auto;
+    /* 562.5% same as 5.626em*/
+}
+
+h2 {color: #127681}
+
+h3 {
+    color: #127681;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 40px;
+}
+
+
+
+/*body & containers*/
+body {
+    background-color: #f0a500;
+    text-align: center;
+    margin: 0;
+}
+
+.top-container {
+    background-color: #f0a500;
+    padding: 15px;
+}
+
+.top-middle-container {
+    top: 50px;
+}
+
+.middle-container {
+    bottom: 100px;
+    width: 100%;
+    height: 150px;
+    top: 100px;
+    margin: 0%;
+    position: relative;
+}
+
+.bottom-container {
+    background-color: #f0a500;
+    padding: 0%;
+}
+
+div {
+    width: 100%;
+}
+
+/*tables*/
+.center {
+    margin: 0 auto 0 auto;
+}
+
+table {
+    height: 50%;
+    width: 50%;
+}
+
+th {
+    text-align: center;
+    font-size: 1em;
+    color: white;
+}
+
+thead {
+    color: white;
+}
+
+em {color: white}
+
+tr {
+    margin: 0 auto 0 auto;
+}
+
+/*circles separating page*/
+hr {
+    border-color: #cf7500;
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 15px;
+    width: 10%;
+}
+
+.hr2 {
+    border-color: #cf7500;
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 15px;
+    width: 10%;  
+}
+
+/*Images and gifs*/
+.imgleft {
+    float: left;
+}
+
+.mainimg {
+    padding: 100px 0 0 0;
+}
+
+/*Widgets and Buttons*/
+.smartlink {
+    color: black;
+    font-size: 2rem;
+    font-family: 'Lobster', cursive;
+    font-weight: normal;
+    width: 70%;
+    margin: 50px auto 50px;
+    padding: 20px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+.pdfreveal {
+    overflow: hidden;
+    margin: 0px;
+    
+}
+
+
+  /*Nav Bar*/
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 99;
+  }
+
+
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: inline-block;
+    color: #127681;
+    text-align: center;
+    padding: 5px 20px;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #cf7500;
+  }
+  
+  .active {
+    background-color: #4CAF50;
+  }
+
+  /*
+.btn {
+    background: #f0a500;
+    background-image: -webkit-linear-gradient(top, #f0a500, #cf7500);
+    background-image: -moz-linear-gradient(top, #f0a500, #cf7500);
+    background-image: -ms-linear-gradient(top, #f0a500, #cf7500);
+    background-image: -o-linear-gradient(top, #f0a500, #cf7500);
+    background-image: linear-gradient(to bottom, #f0a500, #cf7500);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'Pacifico', cursive;
+    color: #ffffff;
+    font-size: 30px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+  }
+  */
